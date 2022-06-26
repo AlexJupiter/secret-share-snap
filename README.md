@@ -1,24 +1,5 @@
-# @metamask/template-snap
-
-The "Hello, world!" of MetaMask Snaps, and also a GitHub template repository.
-For instructions, see [the MetaMask documentation](https://docs.metamask.io/guide/snaps.html#serving-a-snap-to-your-local-environment).
-
-## How To Use This Template
-
-This repository contains the files you need to start your snap project. First, log into GitHub, then click the "Use this template" button to clone this repository into a new project. Once your new repository is created, you can modify the source code to make it your own. For a step by step guide, read [The 5-Minute Snap Tutorial](https://github.com/Montoya/gas-fee-snap#readme).
-
-## Cloning
-
-If you clone or create this repository outside the MetaMask GitHub organization, you probably want to run `./scripts/cleanup.sh` to remove some files that will not work properly outside the MetaMask GitHub organization.
-
-This repository contains other GitHub Actions that you may find useful, see `.github/workflows` and [Releasing & Publishing](#releasing-publishing) below for more information.
-
-Note that the `action-publish-relase.yml` workflow contains a step that publishes the frontend of this snap (contained in the `public/` directory) to GitHub pages.
-If you do not want to publish the frontend to GitHub pages, simply remove the step named "Publish to GitHub Pages" in that workflow.
-
-If you don't wish to use any of the existing GitHub actions in this repository, simply delete the `.github/workflows` directory.
-
-## Contributing
+# Save Secret Shares MetaMask Snap
+Key management social recovery solutions, as used by AirGap and Argent, rely on people having a secure and safe place to save their social contacts' secret share key shards. This Snap uses the convenience and security of MetaMask to store and retrieve these secret share key shards.
 
 ### Setup
 
